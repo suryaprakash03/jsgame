@@ -1,0 +1,90 @@
+h1
+{
+    width:500px;
+    margin:0px auto;
+    text-align:center;
+    text-decoration:underline 3px black;
+}
+img
+{
+    width:30px;
+    height:30px;
+    position:absolute;
+    margin:5px;
+}
+#background
+{
+    width:500px;
+    height:500px;
+    margin:0px auto;
+    background-color:black;
+    position:relative;
+}
+#player
+{
+    width:250px;
+    height:30px;
+    font-weight:bold;
+    font-size:medium;
+    display:block;
+    margin-top:460px;
+    margin-left:125px;
+    position:absolute;
+    text-align:center;
+    box-sizing:border-box;
+    border-radius:10px;
+}
+#name
+{
+    width:250px;
+    height:30px;
+    font-weight:bold;
+    font-size:medium;
+    display:block;
+    margin-top:420px;
+    margin-left:125px;
+    position:absolute;
+    text-align:center;
+    box-sizing:border-box;
+    border-radius:10px;
+
+}
+#points
+{
+    width:50px;
+    margin-left:380px;
+    margin-top:50px;
+    position:absolute;
+    z-index:2;
+}
+span
+{
+    color:white;
+    display:inline-block;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+b
+{
+    color:white;
+}
+#result
+{
+    position:absolute;
+    width:150px;
+    height:100px;
+    color:white;
+    border:2px dotted white;
+    margin-left:175px;
+    margin-top:200px;
+    visibility:hidden;
+}
+#result b
+{
+    margin-left:10px;
+}
+@keyframes example
+{
+    from{margin-top:0px}
+    to{margin-top:470px}
+}

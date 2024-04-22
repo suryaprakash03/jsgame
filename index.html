@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Catch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>EggCatch Game</h1>
+    <div id="background">
+        <img src="data:image/png;base64,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" onclick="stop()">
+        <!--eggs-->
+        <input type="text" id="name" placeholder="Enter Your Name" max="5">
+        <input type="text" id="player" placeholder="click here to play" onclick="user()" onkeydown="move(event)">
+        <div id="points">
+           <span>Name:<b>#</b></span>
+           <span style="text-decoration:underline 2px green;">Points:<b>0</b></span>
+           <span style="text-decoration:underline 2px green;">lost:<b>0</b>/3</span>
+        </div>
+        <div id="result">
+            <b>Name:<i>#</i></b>
+            <br>
+            <b>Your Score:<i>0</i></b>
+            <br>
+            <button style="margin-left:20px;margin-top:20px; border-radius:2px" onclick="location.reload()">restart</button>
+        </div>
+    </div>
+    <script src="./run.js"></script> 
+</body>
+</html>
